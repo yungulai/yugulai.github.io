@@ -28,5 +28,9 @@
         <p>by <a href="http://www.mod.gov.cn/" target="_blank">国防部</a></p>
     </footer> 
 </body>
-
+<script type="text/javascript">        
+    var iframe = document.getElementsByTagName("iframe");        
+    var num = iframe.length;        
+    for (; num > 0; num--) {            iframe[num - 1].style.height = iframe[num - 1].scrollWidth * 0.5625 + "px";        }
+ </script>
 </html>
