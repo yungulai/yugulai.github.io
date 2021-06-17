@@ -1,3 +1,21 @@
 a:hover{
 		color:green;
 		}
+
+body{
+		display: flex;
+		flex-direction: column;
+		}
+
+main{
+			display: flex;
+			flex: auto;
+		}
+
+article{
+			flex: 3;
+		}
+
+aside{
+			flex: 1;
+		}
