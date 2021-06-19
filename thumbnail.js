@@ -6,10 +6,15 @@ document.addEventListener("DOMContentLoaded", function(event) {
     targetImage.addEventListener("click", function() {
     if (targetImage.classList.contains("small")) {
         targetImage.classList.remove("small");
-    } else {
+    } 
+        else {
         targetImage.classList.add("small");
     }
-    });
+    };
+    
+    
+    
+    
     function iframeSize() {    
         var iframe = document.getElementsByTagName("iframe");    
         var num = iframe.length;    
