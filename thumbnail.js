@@ -10,7 +10,6 @@ document.addEventListener("DOMContentLoaded", function(event) {
         else {
         targetImage.classList.add("small");
     }
-    }
     });
     
     
